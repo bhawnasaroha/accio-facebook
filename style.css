@@ -1,0 +1,652 @@
+body{
+  background: linear-gradient(to top right, white, #e9ebee);
+  height:200vmax;
+  background-repeat: no-repeat;
+  font-size: 12px;
+}
+
+#banner{
+  background-color: #3b5998;
+  height: 3.4vmax;
+  z-index: 10;
+  border-bottom: .2px solid #545454;
+}
+
+#center{
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+
+#fbLogo{
+  width:2.4vmax;
+  height: 2.4vmax;
+  vertical-align: middle;
+  cursor:pointer;
+}
+
+#search-box{
+  border-radius: 3%;
+  color: black;
+  height: 2vmax;
+  padding-top: 0;
+  text-overflow: ellipsis;
+  width: 90%;
+}
+
+#prof-pic{
+  border-radius: 50%;
+}
+
+#profile-link{
+  text-decoration: none;
+  color: white;
+}
+
+#profile{
+  color: white !important;
+  font-weight: bold;
+  font-size: .8em;
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 3%;
+  cursor:pointer;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+#home{
+  color: white !important;
+  font-weight: bold;
+  font-size: .8em;
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 3%;
+  cursor:pointer;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+#friends{
+  color: white !important;
+  font-weight: bold;
+  font-size: .8em;
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 3%;
+  cursor:pointer;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+#friend-req{
+  height: 3.3vmax;
+  width: 2.4vmax;
+  cursor:pointer;
+}
+
+#messenger{
+  height: 2.4vmax;
+  width: 2vmax;
+  cursor:pointer;
+}
+
+#notification{
+  height: 2vmax;
+  width: 2vmax;
+  cursor:pointer;
+}
+
+#friend-req, #messenger, #notification{
+  padding-bottom: 10%;
+  display: inline;
+}
+
+
+#icons{
+  padding-bottom: 3%;
+}
+
+#cover{
+  height:30.6vmax;
+  background-color: white;
+  margin-left: 10.3%;
+  margin-right: 22%;
+  width: 68vmax;
+  position: absolute;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+
+#cover-photo{
+  margin-left: 10.3%;
+  margin-right: 22%;
+  height: 27vmax;
+  cursor: pointer;
+  position: absolute;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+#profile-pic--outline{
+  width: 168px;
+  height: 168px;
+  padding: 5px;
+  top: 16.5vmax;
+  left: 11.7vmax;
+  background: white;
+  position: absolute;
+  border-radius: 2px/2px;
+}
+
+#profile-pic{
+  width: 168px;
+  height: 168px;
+  padding: 5px;
+  top: 16.5vmax;
+  left: 11.7vmax;
+  position: absolute;
+  border-radius: 2px/2px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+#username {
+  left: 26vmax;
+  font-size: 1.7em;
+  font-family: inherit;
+  color: white;
+  top: 23.5vmax;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.box-timeline{
+  top: 28vmax;
+  left: 26vmax;
+  background: white;
+  position: absolute;
+  width: 70px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  height: 28px;
+  font-size: .9em;
+  font-family: inherit;
+  cursor: pointer;
+  color: #3b5998;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.box-about{
+  top: 28vmax;
+  left: 32vmax;
+  background: white;
+  position: absolute;
+  width: 70px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  height: 28px;
+  font-size: .9em;
+  font-family: inherit;
+  cursor: pointer;
+  color: #4b4f56;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.box-friends {
+  top: 28vmax;
+  left: 38vmax;
+  background: white;
+  position: absolute;
+  width: 70px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  height: 28px;
+  font-size: .9em;
+  font-family: inherit;
+  cursor: pointer;
+  color: #3b5998;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.box-photos{
+  top: 28vmax;
+  left: 44vmax;
+  background: white;
+  position: absolute;
+  width: 70px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  height: 28px;
+  font-size: .9em;
+  font-family: inherit;
+  cursor: pointer;
+  color: #3b5998;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#about-section{
+  top: 31.1vmax;
+  height:50vmax;
+  background-color: white;
+  margin-left: 10.3%;
+  margin-right: 22%;
+  width: 68vmax;
+  position: absolute;
+  border: 1px solid #ced0d4;
+  border-radius: 3px;
+}
+
+#about-head{
+  top:31.5vmax;
+  background-color: #e9ebee;
+  height: 4vmax;
+  margin-left: 10.3%;
+  margin-right: 22%;
+  width: 68vmax;
+  position: absolute;
+  padding-left: 1.5%;
+}
+
+#a-heading{
+  font-family: inherit;
+  font-weight: bold;
+  text-align: left;
+  color: #4b4f56;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+#about-content{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  height: 40vmax;
+  color: #4b4f56;
+}
+
+
+/* style rules for feed file */
+#feed-column{
+  margin-left: 28vmax;
+  margin-top: 4vmax;
+  height: 15vmax;
+  background: white;
+  width: 47%;
+  border-radius: 2px;
+  border: 1px solid #dddfe2;
+  font-family: inherit;
+  color: #3b5998;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: .8em;
+  line-height: 1.4em;
+  text-align: left;
+  padding-top: 1em;
+}
+
+#status-head{
+  padding-left: 10px;
+}
+
+#status-box {
+  height: 6vmax;
+  outline: none;
+  border: white;
+  background: #ffffff;
+  padding-left: 10px;
+  width: 100%;
+}
+
+#feed{
+  margin-left: 28vmax;
+  margin-top: .5em;
+  height: auto;
+  background: white;
+  width: 47%;
+  border-radius: 2px;
+  border: 1px solid #dddfe2;
+  font-family: inherit;
+  font-size: .9em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+.feed-content{
+  padding: 10px;
+}
+
+.feed-post-heading{
+  color: #3b5998;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.feed-pic{
+  border-radius: 50%;
+}
+
+.feed-time{
+  color: #4b4f56;
+}
+
+
+/*---------- MEDIA QUERIES ------------*/
+@media screen and (max-width: 759.99px) {
+
+  #banner{
+    height: 5.4vmax;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px){
+
+  #banner{
+    height: 4vmax;
+  }
+  
+  #profile, #home, #friends{
+    line-height: 2em;
+  }
+
+  #friend-req{
+    height: 4.3vmax;
+    width: 3.7vmax;
+  }
+
+  #messenger{
+    height: 2.9vmax;
+    width: 2.6vmax;
+  }
+
+  #notification{
+    height: 2.5vmax;
+    width: 2vmax;
+  }
+}
+
+@media screen and (min-width:1000.99px){
+
+  #nav-lg{
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width:576px){
+
+  body{
+    height: auto;
+  }
+
+  #cover-photo{
+    margin-left: 0;
+    margin-right: 0;
+    height: 31vmax;
+    float: left;
+    min-width: 100%;
+  }
+
+  #username{
+    text-align: left;
+    left: 2.6vmax;
+  }
+
+  #about-section{
+    height: 150vmax;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  #about-head{
+    left: 0;
+    margin-left: 0;
+    height: 8vmax;
+    width: 100%;
+  }
+
+  #about-content{
+    left: 0;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 1%;
+    width: 100%;
+  }
+
+  #feed-column{
+    margin-left: 0;
+    margin-top: 6vmax;
+    height: 24vmax;
+    width: 100%;
+  }
+
+  #status-box{
+    height: 7vmax;
+  }
+
+  #feed{
+    margin-left: 0;
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767.99px){
+
+  body{
+    height: auto;
+  }
+
+  #cover{
+    margin-left: 0;
+    margin-right: 0;
+    height: 48vmax;
+    float: left;
+    min-width: 100%;
+  }
+
+  #cover-photo{
+    margin-left: 0;
+    margin-right: 0;
+    height: 42vmax;
+    float: left;
+    min-width: 100%;
+  }
+
+  #profile-pic--outline, #profile-pic{
+    left: 4vmax;
+    top: 19vmax;
+  }
+
+  #username{
+    top: 35vmax;
+    left: 33vmax;
+  }
+
+  .box-timeline, .box-about, .box-friends, .box-photos{
+    top:42.5vmax;
+  }
+
+  .box-timeline{
+    left: 32vmax;
+  }
+
+  .box-about{
+    left: 44vmax;
+  }
+
+  .box-friends{
+    left: 56vmax;
+  }
+
+  .box-photos{
+    left: 68vmax;
+  }
+
+  #about-section, #about-head, #about-content{
+    top: 50vmax;
+  }
+
+  #about-section{
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 170vmax;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #about-head{
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 8vmax;
+  }
+
+  #about-content{
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 2%;
+    height: 170vmax;
+  }
+
+  #feed-column{
+    margin-left: 18vmax;
+    margin-top: 5vmax;
+    height: 22vmax;
+    width: 65%;
+  }
+
+  #feed{
+    margin-left: 18vmax;
+    margin-top: .7vmax;
+    width: 65%;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023.99px){
+
+  body{
+    height: 170vmax;
+  }
+
+  #cover-photo{
+    width: 68vmax;
+    margin-right: 22%;
+  }
+
+  #profile-pic--outline, #profile-pic{
+    top: 8.5vmax;
+  }
+
+  #username{
+    left: 33.5vmax;
+    top: 23vmax;
+  }
+
+  .box-timeline, .box-about, .box-friends, .box-photos{
+    top: 27vmax;
+  }
+
+  .box-timeline{
+    left: 33.8vmax;
+  }
+
+  .box-about{
+    left: 42.9vmax;
+  }
+
+  .box-friends{
+    left: 52vmax;
+  }
+
+  .box-photos{
+    left: 61.2vmax;
+  }
+
+  #about-section{
+    height: 130vmax;
+  }
+
+  #about-head{
+    height: 5.5vmax;
+  }
+
+  #feed-column{
+    margin-left: 15vmax;
+    height: 23vmax;
+    width: 72%;
+  }
+
+  #status-box{
+    height: 8vmax;
+  }
+
+  #feed{
+    margin-left: 15vmax;
+    width: 72%;
+  }
+}
+
+@media screen and (min-width:1024px){
+
+  body{
+    height: 150vmax;
+  }
+
+  #cover-photo{
+    width: 68vmax;
+    margin-right: 22%;
+  }
+
+  #profile-pic--outline, #profile-pic{
+    top: 15vmax;
+  }
+
+  #username{
+    left: 28.3vmax;
+    top: 23vmax;
+  }
+
+  .box-timeline, .box-about, .box-friends, .box-photos{
+    top: 27.5vmax;
+  }
+
+  .box-timeline{
+    left: 28.3vmax;
+  }
+
+  .box-about{
+    left: 35.5vmax;
+  }
+
+  .box-friends{
+    left: 42.8vmax;
+  }
+
+  .box-photos{
+    left: 50vmax;
+  }
+
+  #about-section{
+    height: 75vmax;
+  }
+
+  #feed-column{
+    margin-left: 28vmax;
+    width: 50%;
+    height: 16vmax;
+  }
+
+  #feed{
+    margin-left: 28vmax;
+    width: 50%;
+  }
+}
