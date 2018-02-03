@@ -1,8 +1,9 @@
 // document ready function to check if DOM loaded or not
 $(document).ready(function(){
+  var enterAccessToken = prompt("Enter your token here");
 
   // assign token here
-  var userAccessToken = 'EAACEdEose0cBAFyiFg9Rktps9tY5qAHQEZAli9b5mAPF8TmrZA6WKOFKRXpgaKGZBvvNQsUDZBSde3RZAwVzccoOZBZC5dLbF0P3OFAFeZCwNi7ppbzchxvysUtZA2d38kULZA9OPO0jLAMZAxgu5HCWMpHA2NZBlCgHaYwyBr3mXZCxUimWTOryUxU33ZAKknskeADvQZBZAgBeiJPp7aO3XCkVcCBkA7HCZB0gR1qEZD';
+  var userAccessToken = enterAccessToken;
 
   // function starts here
   function getUserPostInfo() {
