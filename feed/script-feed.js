@@ -20,19 +20,19 @@ $(document).ready(function(){
           $.each(response.posts.data, function(i, post){
 
             if(post.type==="status" && post.message){
-              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>');
+              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="../images/feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>');
             }
 
             else if(post.type==="photo" && post.message){
-              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><br><div class="row"><img src='+post.full_picture+' style="width:100%; height: 75%;"></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
+              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="../images/feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><br><div class="row"><img src='+post.full_picture+' style="width:100%; height: 75%;"></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
             }
 
             else if(post.type==="photo" && !post.message){
-              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row"><img src='+post.full_picture+' style="width:100%; height: 75%;"></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
+              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="../images/feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row"><img src='+post.full_picture+' style="width:100%; height: 75%;"></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
             }
 
             else if(post.type==="video"){
-              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><div class="row"><a href='+post.source+'>'+post.source+'</a></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
+              $("#feed-post").append('<div class="feed-content"><div class="row"><img src="../images/feed-pic.jpg" class="feed-pic"><h6 class="feed-post-heading"></h6></div><br><div class="row" class="feed-content-message">'+post.message+'</div><div class="row"><a href='+post.source+'>'+post.source+'</a></div><br><div class="row feed-time">Created time: '+post.created_time+'</div></div><hr>')
             }
 
           });
